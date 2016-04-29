@@ -1,0 +1,43 @@
+[user]
+	name = Ben Cullen-Kerney
+[github]
+	user = bak
+[alias]
+	co = checkout
+	st = "status -s"
+	b  = "branch -v"
+	l  = "log --graph --color --decorate --all --branches --pretty=format:\"%C(yellow)%h%Cgreen%d %Cblue%an:%Creset %s\""
+	lg = "log --all --branches --color --graph --date=default --pretty=format:\"%C(yellow)%H%Cgreen%d%Creset%n%an, %ad (%ar, committed %cr)%nparents: %p%n%n%w(76,2,2)%B\""
+	lw = "log --word-diff -p"
+	dw = "diff --word-diff"
+	current = "rev-parse --abbrev-ref HEAD"
+	updatesubmodules = "submodule foreach git pull origin master"
+	c = "commit -m ."
+	topic = !sh -c 'git push origin origin/master:refs/heads/$0 && git checkout $0'
+[core]
+	excludesfile = ~/.gitignore
+	pager = less -F -X
+	trustctime = false
+	autocrlf = input
+[help]
+	browser = gitscm
+[push]
+	default = upstream
+[color]
+	ui = auto
+[commit]
+	template = ~/.default_commit_message
+[code-review]
+	command = tig
+[pull]
+	rebase = true
+[credential]
+	helper = osxkeychain
+[rerere]
+	enabled = true
+[diff]
+	tool = vimdiff2
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

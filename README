@@ -1,0 +1,12 @@
+Store dotfile sources here, under the dev package. Use `stow` (available in Homebrew) to move them up a directory:
+
+```
+$ pwd
+/Users/ben/dotfiles
+$ ls dev
+.gitconfig
+$ stow dev
+$ cd ..
+$ ls -al .gitconfig
+.gitconfig -> dotfiles/dev/.gitconfig
+```
