@@ -1,0 +1,8 @@
+bind generic g move-first-line
+bind generic G move-last-line
+bind generic n next
+bind generic p previous
+
+set commit-order = topo         # togological commit order
+set blame-options = -C -C -C    # Blame lines from other files
+set line-graphics = utf-8
