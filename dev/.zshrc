@@ -77,3 +77,6 @@ precmd_functions+='battery_precmd'
 chpwd_functions+='chpwd_update_git_vars'
 
 PROMPT=$'$(battery_prompt)%* %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
+
+# rbenv
+eval "$(rbenv init -)"
