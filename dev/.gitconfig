@@ -1,5 +1,6 @@
 [user]
 	name = Ben Cullen-Kerney
+	signingkey = 1929F857
 [github]
 	user = bak
 [alias]
@@ -27,6 +28,7 @@
 	ui = auto
 [commit]
 	template = ~/.default_commit_message
+	gpgsign = true
 [code-review]
 	command = tig
 [pull]
