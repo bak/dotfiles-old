@@ -39,7 +39,7 @@
 [rerere]
 	enabled = true
 [diff]
-	tool = vimdiff2
+	compactionHeuristic = true
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
