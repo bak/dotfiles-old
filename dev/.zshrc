@@ -80,3 +80,6 @@ PROMPT=$'$(battery_prompt)%* %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[defaul
 
 # rbenv
 eval "$(rbenv init -)"
+
+# direnv
+eval "$(direnv hook zsh)"
