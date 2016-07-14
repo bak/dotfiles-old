@@ -31,6 +31,7 @@
 	gpgsign = true
 [code-review]
 	command = tig
+	branch = origin master
 [pull]
 	rebase = true
 [credential]
