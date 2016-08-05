@@ -44,3 +44,12 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[tig "bind"]
+  generic = g move-first-line
+  generic = G move-last-line
+  generic = n next
+  generic = p previous
+[tig "set"]
+  commit-order = topo
+  blame-options = -C -C -C    # Blame lines from other files
+  line-graphics = utf-8
