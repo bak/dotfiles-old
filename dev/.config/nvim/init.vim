@@ -8,6 +8,7 @@ set modelines=0 " Don't allow files to change settings
 
 let mapleader = ","
 
+set colorcolumn=80
 set background=dark
 call togglebg#map("<F5>")
 colorscheme solarized
