@@ -1,1 +1,3 @@
 dev/.config/nvim/.netrwhist
+dev/.config/direnv/*
+dev/.config/configstore/*
