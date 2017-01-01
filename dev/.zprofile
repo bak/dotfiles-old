@@ -24,3 +24,4 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="./bin:$PATH"
 export MANPATH="/usr/share/man:/usr/local/share/man"
+

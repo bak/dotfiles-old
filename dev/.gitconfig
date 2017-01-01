@@ -53,3 +53,5 @@
   commit-order = topo
   blame-options = -C -C -C    # Blame lines from other files
   line-graphics = utf-8
+[gpg]
+  program = gpg1
