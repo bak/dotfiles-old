@@ -8,8 +8,8 @@ export HOMEBREW_NO_ANALYTICS=1
 export PAGER="less"
 export LESS="-R"
 
-alias l='ls -1opG'
-alias ll='ls -1opG | less'
+alias l='ls -1aopG'
+alias ll='ls -1aopG | less'
 alias history='fc -l 1'
 
 ##########
