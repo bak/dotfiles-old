@@ -10,3 +10,5 @@ $ cd ..
 $ ls -al .gitconfig
 .gitconfig -> dotfiles/dev/.gitconfig
 ```
+
+The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To install a plugin, submodule it into `dev/.config/nvim/bundle/`.
