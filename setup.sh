@@ -39,6 +39,10 @@ open shared/iterm2-themes/
 echo "Symlinking vim to nvim"
 ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
+echo "Configuring gpg"
+cp shared/gpg.conf ~/.gnupg/
+cp shared/gpg-agent.conf ~/.gnupg/
+
 echo "All done!"
 echo "- You can install a Ruby using, e.g., 'ruby-install ruby'"
 echo "- Be sure to install your SSH and GPG key data (gpg1 --import /Path/To/File.asc)"
