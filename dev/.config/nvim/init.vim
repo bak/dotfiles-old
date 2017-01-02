@@ -64,7 +64,6 @@ set backspace=indent,eol,start
 
 " set backupdir, but don't use them
 set backupdir=~/.config/nvim/backup
-set nobackup
 
 " swap dir
 set directory=~/.config/nvim/tmp
