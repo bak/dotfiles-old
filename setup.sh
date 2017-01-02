@@ -26,10 +26,13 @@ echo "Installing all Homebrew recipes (relies on Brewfile being stowed)"
 brew tap Homebrew/bundle
 brew bundle --global
 
+echo "Setting Homebrew's zsh"
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+
 echo "Opening iTerm2 theme directory so you can install them"
 open shared/iterm2-themes/
 
 echo "All done!"
 echo "- You can install a Ruby using, e.g., 'ruby-install ruby'"
-echo "- Be sure to install your SSH and GPG key data"
+echo "- Be sure to install your SSH and GPG key data (gpg1 --import /Path/To/File.asc)
 echo "- Please restart the computer for everything to work right"

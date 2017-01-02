@@ -1,6 +1,7 @@
 cask_args appdir: '~/Applications'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
+tap 'neovim/neovim'
 brew "cctools"
 brew "chruby"
 brew "direnv"
