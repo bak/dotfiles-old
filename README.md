@@ -11,4 +11,10 @@ $ ls -al .gitconfig
 .gitconfig -> dotfiles/dev/.gitconfig
 ```
 
-The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To install a plugin, submodule it into `dev/.config/nvim/bundle/`.
+The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To install plugins, submodule it into `dev/.config/nvim/bundle/`, and configure each with a local excludesfile:
+
+```
+$ git submodule add https://github.com/vimwiki/vimwiki.git
+$ git submodule add git@github.com:vim-ruby/vim-ruby
+$ git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
+```
