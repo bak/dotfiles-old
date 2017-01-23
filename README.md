@@ -1,4 +1,5 @@
-Store dotfile sources here, under the dev package. Use `stow` (available in Homebrew) to move them up a directory:
+Store dotfile sources here, under the dev package. Use `stow` (available in
+Homebrew) to move them up a directory:
 
 ```
 $ pwd
@@ -11,10 +12,14 @@ $ ls -al .gitconfig
 .gitconfig -> dotfiles/dev/.gitconfig
 ```
 
-The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To install plugins, submodule it into `dev/.config/nvim/bundle/`, and configure each with a local excludesfile:
+The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To
+install more plugins, submodule them into `dev/.config/nvim/bundle/`, configure
+each with a local excludesfile, and commit the subproject and the changes to
+`.gitmodules`.
 
 ```
-$ git submodule add https://github.com/vimwiki/vimwiki.git
-$ git submodule add git@github.com:vim-ruby/vim-ruby
+$ git submodule add git@github.com:tpope/vim-vinegar.git dev/.config/nvim/bundle/vim-vinegar
 $ git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
+$ git add .gitmodules dev/.config/nvim/bundle/vim-vinegar
+$ git commit -m "Installs vim-vinegar"
 ```

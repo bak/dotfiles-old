@@ -1,3 +1,5 @@
+export EDITOR='vim'
+
 # Don't let Homebrew talk to Google Analytics
 export HOMEBREW_NO_ANALYTICS=1
 
