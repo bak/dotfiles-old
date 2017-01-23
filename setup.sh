@@ -21,6 +21,7 @@ stow dev
 echo "Updating submodules"
 git submodule init
 git submodule update
+git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
 
 echo "Signing in to MAS" 
 brew install mas
