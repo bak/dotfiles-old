@@ -16,7 +16,7 @@
 	c = "commit -m ."
 	topic = !sh -c 'git push origin origin/master:refs/heads/$0 && git checkout $0'
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 	pager = less -F -X
 	trustctime = false
 	autocrlf = input
