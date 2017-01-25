@@ -45,6 +45,7 @@ cp shared/gpg.conf ~/.gnupg/
 cp shared/gpg-agent.conf ~/.gnupg/
 
 echo "All done!"
-echo "- You can install a Ruby using, e.g., 'ruby-install ruby'"
+echo "- You can install a Ruby using, e.g., 'ruby-install ruby-x.y.z' or just 'ruby-install ruby'. Here are some Rubies:"
+ruby-install -L
 echo "- Be sure to install your SSH and GPG key data (gpg1 --import /Path/To/File.asc)"
 echo "- Please restart the computer for everything to work right"
