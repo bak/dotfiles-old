@@ -42,22 +42,6 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history # share command history data
 
-function battery_precmd {
-    BATSTAT=`battery.rb`
-}
-
-function battery_prompt {
-    if [ $BATSTAT =~ "~" ]; then
-        echo "%{${fg[yellow]}%}$BATSTAT%% %{${fg[default]}%}"
-    elif [ $BATSTAT -gt "20" ]; then
-        echo "%{${fg[green]}%}$BATSTAT%% %{${fg[default]}%}"
-    elif [ $BATSTAT -gt "10" ]; then
-        echo "%{${fg[red]}%}$BATSTAT%% %{${fg[default]}%}"
-    else
-        echo "%{${fg[red]}%}%B$BATSTAT%%%b %{${fg[default]}%}"
-    fi
-}
-
 # Allow for functions in the prompt.
 setopt PROMPT_SUBST
 
@@ -73,10 +57,9 @@ typeset -ga chpwd_functions
 # Append git functions needed for prompt.
 preexec_functions+='preexec_update_git_vars'
 precmd_functions+='precmd_update_git_vars'
-precmd_functions+='battery_precmd'
 chpwd_functions+='chpwd_update_git_vars'
 
-PROMPT=$'$(battery_prompt)%* %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
+PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
 # chruby
 source /usr/local/share/chruby/chruby.sh
