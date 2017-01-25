@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Sourcing dotfiles/.envrc"
 source .envrc
 
