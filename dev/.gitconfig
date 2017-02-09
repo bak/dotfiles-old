@@ -29,6 +29,7 @@
 [commit]
 	template = ~/.default_commit_message
 	gpgsign = true
+  verbose = true
 [code-review]
 	command = tig
 	branch = origin master
