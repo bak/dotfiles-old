@@ -8,6 +8,7 @@ brew "direnv"
 brew "git"
 brew "gpg1" # https://medium.com/jubianchi-fr/mac-osx-and-gpg2-d5f719fc596#.19oqmiet7
 brew "gpg-agent"
+brew "heroku"
 brew "pinentry-mac"
 brew "neovim/neovim/neovim"
 brew "node"
@@ -27,4 +28,3 @@ cask 'karabiner-elements'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
-
