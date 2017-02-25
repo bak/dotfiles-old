@@ -15,7 +15,7 @@ $ ls -al .gitconfig
 The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To
 install more plugins, submodule them into `dev/.config/nvim/bundle/`, configure
 each with a local excludesfile, and commit the subproject and the changes to
-`.gitmodules`.
+`.gitmodules`:
 
 ```
 $ git submodule add git@github.com:tpope/vim-vinegar.git dev/.config/nvim/bundle/vim-vinegar
@@ -23,3 +23,6 @@ $ git submodule foreach git config --local core.excludesfile "../.gitignore_subm
 $ git add .gitmodules dev/.config/nvim/bundle/vim-vinegar
 $ git commit -m "Installs vim-vinegar"
 ```
+
+To configure the machine and install packages, first install `Xcode.app` via
+the App Store, install the `Command Line Tools`, and then run `setup.sh`.
