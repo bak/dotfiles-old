@@ -6,6 +6,7 @@ brew "cctools"
 brew "chruby"
 brew "direnv"
 brew "git"
+brew "go"
 brew "gpg1" # https://medium.com/jubianchi-fr/mac-osx-and-gpg2-d5f719fc596#.19oqmiet7
 brew "gpg-agent"
 brew "heroku"
