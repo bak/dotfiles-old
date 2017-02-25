@@ -22,6 +22,7 @@ brew "tig"
 brew "tmux"
 brew "zsh"
 cask 'alfred'
+cask 'focus'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'font-source-code-pro'
