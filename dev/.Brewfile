@@ -31,6 +31,7 @@ cask 'google-chrome'
 cask 'iterm2'
 cask 'font-source-code-pro'
 cask 'karabiner-elements'
+cask 'launchrocket'
 cask 'omnifocus'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
