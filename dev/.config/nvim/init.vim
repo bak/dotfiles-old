@@ -27,6 +27,9 @@ command Wq wq
 command W w
 command Q q
 
+" don't add missing newlines
+set nofixeol
+
 " just use the system clipboard
 set clipboard=unnamed
 
