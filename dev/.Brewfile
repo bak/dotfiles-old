@@ -25,13 +25,17 @@ brew "tig"
 brew "tmux"
 brew "zsh"
 cask 'alfred'
+cask 'dash'
+cask 'docker'
 cask 'firefox'
 cask 'focus'
+cask 'github-desktop'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'font-source-code-pro'
 cask 'karabiner-elements'
 cask 'launchrocket'
+cask 'notational-velocity'
 cask 'omnifocus'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
