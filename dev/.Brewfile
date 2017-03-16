@@ -37,6 +37,7 @@ cask 'karabiner-elements'
 cask 'launchrocket'
 cask 'notational-velocity'
 cask 'omnifocus'
+cask 'rowanj-gitx'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
