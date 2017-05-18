@@ -58,3 +58,6 @@
 [submodule "dev/.config/nvim/bundle/calendar-vim"]
 	path = dev/.config/nvim/bundle/calendar-vim
 	url = git@github.com:mattn/calendar-vim
+[submodule "dev/.emacs.d"]
+	path = dev/.emacs.d
+	url = git@github.com:syl20bnr/spacemacs.git
