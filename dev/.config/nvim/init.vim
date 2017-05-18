@@ -43,7 +43,6 @@ noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 highlight SignColumn ctermbg=black
 
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
-autocmd FileType markdown set tabstop=2|set shiftwidth=2|set noexpandtab
 
 " line break without breaking words
 set wrap
