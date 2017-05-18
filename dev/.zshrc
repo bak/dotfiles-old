@@ -69,4 +69,21 @@ chruby ruby-2.4.0
 # direnv
 eval "$(direnv hook zsh)"
 
-export PATH="/usr/local/opt/node@0.12/bin:$PATH"
+# hub
+eval "$(hub alias -s)"
+
+export EDITOR='vim'
+
+#######################
+# Generic shell stuff #
+#######################
+
+export PAGER="less"
+export LESS="-R"
+
+alias l='ls -1AopG'
+alias ll='ls -1AopG | less'
+alias hx='fc -l 1'
+
+export HOMEBREW_NO_ANALYTICS=1
+
