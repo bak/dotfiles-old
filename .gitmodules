@@ -61,3 +61,6 @@
 [submodule "dev/.emacs.d"]
 	path = dev/.emacs.d
 	url = git@github.com:syl20bnr/spacemacs.git
+[submodule "dev/.config/nvim/bundle/vim-go"]
+	path = dev/.config/nvim/bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
