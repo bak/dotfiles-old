@@ -2,3 +2,4 @@ dev/.config/nvim/.netrwhist
 dev/.config/nvim/tmp/*
 dev/.config/direnv/*
 dev/.config/configstore/*
+dev/.config/hub
