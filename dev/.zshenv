@@ -8,5 +8,3 @@ export PATH="$HOME/bin:$PATH"
 export PATH="./bin:$PATH"
 export MANPATH="/usr/share/man:/usr/local/share/man"
 export GOPATH="$HOME/go"
-
-export PATH="/usr/local/opt/node@0.12/bin:$PATH"

@@ -12,11 +12,8 @@ brew "heroku"
 brew "hub"
 brew "neovim/neovim/neovim"
 brew "pandoc"
-brew "postgresql94"
 brew "qt"
-brew "rabbitmq"
 brew "reattach-to-user-namespace"
-brew "redis"
 brew "ruby-install"
 brew "stow"
 brew "the_silver_searcher"
@@ -26,12 +23,12 @@ brew "zsh"
 cask 'alfred'
 cask 'dash'
 cask 'docker'
-cask 'firefox'
 cask 'iterm2'
 cask 'font-source-code-pro'
 cask 'karabiner-elements'
 cask 'launchrocket'
 cask 'omnifocus'
+cask 'postgres'
 cask 'rowanj-gitx'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
