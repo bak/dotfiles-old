@@ -23,6 +23,7 @@ brew "zsh"
 cask 'alfred'
 cask 'dash'
 cask 'docker'
+cask 'dropbox'
 cask 'font-source-code-pro'
 cask 'gpgtools'
 cask 'iterm2'

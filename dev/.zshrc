@@ -64,7 +64,7 @@ PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 # chruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby ruby-2.4.0
+chruby ruby-2.4.1
 
 # direnv
 eval "$(direnv hook zsh)"

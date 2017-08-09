@@ -24,5 +24,5 @@ $ git add .gitmodules dev/.config/nvim/bundle/vim-vinegar
 $ git commit -m "Installs vim-vinegar"
 ```
 
-To configure the machine and install packages, first install `Xcode.app` via
-the App Store, install the `Command Line Tools`, and then run `setup.sh`.
+To configure the machine and install packages, first install the `Command
+Line Tools`, and then run `setup.sh`.
