@@ -61,10 +61,7 @@ chpwd_functions+='chpwd_update_git_vars'
 
 PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
-# chruby
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
-chruby ruby-2.4.1
+eval "$(rbenv init -)"
 
 # direnv
 eval "$(direnv hook zsh)"
