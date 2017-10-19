@@ -64,3 +64,6 @@
 [submodule "dev/.config/nvim/bundle/vim-go"]
 	path = dev/.config/nvim/bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
+[submodule "dev/.config/nvim/bundle/codi.vim"]
+	path = dev/.config/nvim/bundle/codi.vim
+	url = git@github.com:metakirby5/codi.vim.git
