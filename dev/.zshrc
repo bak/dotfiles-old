@@ -61,15 +61,17 @@ chpwd_functions+='chpwd_update_git_vars'
 
 PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
-eval "$(rbenv init -)"
-
 # direnv
 eval "$(direnv hook zsh)"
 
 # hub
-eval "$(hub alias -s)"
+# eval "$(hub alias -s)"
 
-export EDITOR='vim'
+export EDITOR="vim"
+
+if [ -f "${HOME}/.gemrc.local" ]; then
+  export GEMRC="${HOME}/.gemrc.local"
+fi
 
 #######################
 # Generic shell stuff #
@@ -83,4 +85,7 @@ alias ll='ls -1AopG | less'
 alias hx='fc -l 1'
 
 export HOMEBREW_NO_ANALYTICS=1
+
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

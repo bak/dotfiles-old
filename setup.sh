@@ -25,7 +25,7 @@ git submodule init
 git submodule update
 git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
 
-echo "Signing in to MAS" 
+echo "Signing in to MAS"
 brew install mas
 mas signin --dialog $EMAIL
 
@@ -43,8 +43,6 @@ echo "Symlinking vim to nvim"
 ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
 echo "All done!"
-echo "- You can install a Ruby using, e.g., 'ruby-install ruby-x.y.z' or just 'ruby-install ruby'. Here are some Rubies:"
-ruby-install -L
 echo "- Be sure to create an ssh keypair if this is a new machine"
 echo "- Be sure to install GPG key data (gpg --import /Path/To/File.asc)"
 echo "- Please restart the computer for everything to work right"
