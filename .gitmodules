@@ -1,66 +1,66 @@
 [submodule "dev/.config/nvim/bundle/vim-colors-solarized"]
 	path = dev/.config/nvim/bundle/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized
 [submodule "dev/.config/nvim/bundle/vim-vinegar"]
 	path = dev/.config/nvim/bundle/vim-vinegar
-	url = git@github.com:tpope/vim-vinegar.git
+	url = https://github.com/tpope/vim-vinegar
 [submodule "dev/.config/nvim/bundle/vim-repeat"]
 	path = dev/.config/nvim/bundle/vim-repeat
-	url = git@github.com:tpope/vim-repeat
+	url = https://github.com/tpope/vim-repeat
 [submodule "dev/.config/nvim/bundle/vim-surround"]
 	path = dev/.config/nvim/bundle/vim-surround
-	url = git@github.com:tpope/vim-surround
+	url = https://github.com/tpope/vim-surround
 [submodule "dev/.config/nvim/bundle/vim-rails"]
 	path = dev/.config/nvim/bundle/vim-rails
-	url = git@github.com:tpope/vim-rails
+	url = https://github.com/tpope/vim-rails
 [submodule "dev/.config/nvim/bundle/vim-bundler"]
 	path = dev/.config/nvim/bundle/vim-bundler
-	url = git@github.com:tpope/vim-bundler
+	url = https://github.com/tpope/vim-bundler
 [submodule "dev/.config/nvim/bundle/vim-dispatch"]
 	path = dev/.config/nvim/bundle/vim-dispatch
-	url = git@github.com:tpope/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
 [submodule "dev/.config/nvim/bundle/vim-ruby"]
 	path = dev/.config/nvim/bundle/vim-ruby
-	url = git@github.com:vim-ruby/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
 [submodule "dev/.config/nvim/bundle/vim-fugitive"]
 	path = dev/.config/nvim/bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
 [submodule "dev/.config/nvim/bundle/vim-jdaddy"]
 	path = dev/.config/nvim/bundle/vim-jdaddy
-	url = git@github.com:tpope/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy
 [submodule "dev/.config/nvim/bundle/ctrlp.vim"]
 	path = dev/.config/nvim/bundle/ctrlp.vim
-	url = git@github.com:ctrlpvim/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "dev/.config/nvim/bundle/vim-markdown"]
 	path = dev/.config/nvim/bundle/vim-markdown
-	url = git@github.com:tpope/vim-markdown
+	url = https://github.com/tpope/vim-markdown
 [submodule "dev/.config/nvim/bundle/vim-ruby-minitest"]
 	path = dev/.config/nvim/bundle/vim-ruby-minitest
-	url = git@github.com:sunaku/vim-ruby-minitest
+	url = https://github.com/sunaku/vim-ruby-minitest
 [submodule "dev/.config/nvim/bundle/ag.vim"]
 	path = dev/.config/nvim/bundle/ag.vim
-	url = git@github.com:rking/ag.vim
+	url = https://github.com/rking/ag.vim
 [submodule "dev/.config/nvim/bundle/dash.vim"]
 	path = dev/.config/nvim/bundle/dash.vim
-	url = git@github.com:rizzatti/dash.vim
+	url = https://github.com/rizzatti/dash.vim
 [submodule "dev/.config/nvim/bundle/vim-elixir"]
 	path = dev/.config/nvim/bundle/vim-elixir
-	url = git@github.com:elixir-lang/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
 [submodule "dev/.config/nvim/bundle/tComment"]
 	path = dev/.config/nvim/bundle/tComment
-	url = git@github.com:vim-scripts/tComment
+	url = https://github.com/vim-scripts/tComment
 [submodule "dev/.config/nvim/bundle/vim-textobj-rubyblock"]
 	path = dev/.config/nvim/bundle/vim-textobj-rubyblock
-	url = git@github.com:nelstrom/vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock
 [submodule "dev/.config/nvim/bundle/vim-textobj-user"]
 	path = dev/.config/nvim/bundle/vim-textobj-user
-	url = git@github.com:kana/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
 [submodule "dev/.config/nvim/bundle/calendar-vim"]
 	path = dev/.config/nvim/bundle/calendar-vim
-	url = git@github.com:mattn/calendar-vim
+	url = https://github.com/mattn/calendar-vim
 [submodule "dev/.emacs.d"]
 	path = dev/.emacs.d
-	url = git@github.com:syl20bnr/spacemacs.git
+	url = https://github.com/syl20bnr/spacemacs
 [submodule "dev/.config/nvim/bundle/vim-go"]
 	path = dev/.config/nvim/bundle/vim-go
-	url = git@github.com:fatih/vim-go.git
+	url = https://github.com/fatih/vim-go
