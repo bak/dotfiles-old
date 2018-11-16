@@ -9,11 +9,6 @@ set modelines=0 " Don't allow files to change settings
 
 let mapleader = ","
 
-set colorcolumn=80
-set background=dark
-call togglebg#map("<F5>")
-colorscheme solarized
-
 " ctrlp mapped to ctrl-l
 let g:ctrlp_map = '<c-l>'
 let g:ctrlp_cmd = 'CtrlPMixed'
@@ -76,14 +71,6 @@ set visualbell     " flash
 set history=50     " keep 50 lines of command line history
 set showcmd        " display incomplete commands
 
-" " JSON formatting
-" " requires JSON::XS (sudo cpan JSON::XS)
-" map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
-" au BufRead,BufNewFile *.json set filetype=json
-
-" vim-json config
-" let g:vim_json_syntax_conceal = 0
-
 " Search
 nnoremap / /\v
 vnoremap / /\v
@@ -93,9 +80,6 @@ set gdefault
 set hlsearch
 set incsearch
 set showmatch
-
-" Dash
-:nmap <silent> <leader>d <Plug>DashSearch
 
 " Move within wrappings
 nnoremap j gj

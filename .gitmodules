@@ -1,6 +1,3 @@
-[submodule "dev/.config/nvim/bundle/vim-colors-solarized"]
-	path = dev/.config/nvim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule "dev/.config/nvim/bundle/vim-vinegar"]
 	path = dev/.config/nvim/bundle/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
@@ -13,9 +10,6 @@
 [submodule "dev/.config/nvim/bundle/vim-rails"]
 	path = dev/.config/nvim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
-[submodule "dev/.config/nvim/bundle/vim-bundler"]
-	path = dev/.config/nvim/bundle/vim-bundler
-	url = https://github.com/tpope/vim-bundler
 [submodule "dev/.config/nvim/bundle/vim-dispatch"]
 	path = dev/.config/nvim/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
@@ -25,27 +19,15 @@
 [submodule "dev/.config/nvim/bundle/vim-fugitive"]
 	path = dev/.config/nvim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "dev/.config/nvim/bundle/vim-jdaddy"]
-	path = dev/.config/nvim/bundle/vim-jdaddy
-	url = https://github.com/tpope/vim-jdaddy
 [submodule "dev/.config/nvim/bundle/ctrlp.vim"]
 	path = dev/.config/nvim/bundle/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "dev/.config/nvim/bundle/vim-markdown"]
 	path = dev/.config/nvim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown
-[submodule "dev/.config/nvim/bundle/vim-ruby-minitest"]
-	path = dev/.config/nvim/bundle/vim-ruby-minitest
-	url = https://github.com/sunaku/vim-ruby-minitest
 [submodule "dev/.config/nvim/bundle/ag.vim"]
 	path = dev/.config/nvim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim
-[submodule "dev/.config/nvim/bundle/dash.vim"]
-	path = dev/.config/nvim/bundle/dash.vim
-	url = https://github.com/rizzatti/dash.vim
-[submodule "dev/.config/nvim/bundle/vim-elixir"]
-	path = dev/.config/nvim/bundle/vim-elixir
-	url = https://github.com/elixir-lang/vim-elixir
 [submodule "dev/.config/nvim/bundle/tComment"]
 	path = dev/.config/nvim/bundle/tComment
 	url = https://github.com/vim-scripts/tComment
@@ -55,9 +37,6 @@
 [submodule "dev/.config/nvim/bundle/vim-textobj-user"]
 	path = dev/.config/nvim/bundle/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
-[submodule "dev/.config/nvim/bundle/calendar-vim"]
-	path = dev/.config/nvim/bundle/calendar-vim
-	url = https://github.com/mattn/calendar-vim
 [submodule "dev/.emacs.d"]
 	path = dev/.emacs.d
 	url = https://github.com/syl20bnr/spacemacs
