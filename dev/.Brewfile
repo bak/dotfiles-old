@@ -28,7 +28,9 @@ cask 'gpg-suite'
 cask 'iterm2'
 cask 'keybase'
 cask 'omnifocus'
+cask 'omnioutliner'
 cask 'rowanj-gitx'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
+mas 'Mindnode', id: 1289197285
