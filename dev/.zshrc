@@ -86,6 +86,10 @@ alias hx='fc -l 1'
 
 export HOMEBREW_NO_ANALYTICS=1
 
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+export PATH="./bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
