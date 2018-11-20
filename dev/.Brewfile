@@ -29,6 +29,7 @@ cask 'iterm2'
 cask 'keybase'
 cask 'omnifocus'
 cask 'omnioutliner'
+cask 'omnipresence'
 cask 'rowanj-gitx'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
