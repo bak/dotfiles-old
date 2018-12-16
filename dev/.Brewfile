@@ -19,6 +19,7 @@ brew "the_silver_searcher"
 brew "tig"
 brew "tmux"
 brew "tree"
+brew 'virtualbox'
 brew "zsh"
 cask 'atom'
 cask 'dash'
@@ -31,6 +32,7 @@ cask 'omnifocus'
 cask 'omnioutliner'
 cask 'omnipresence'
 cask 'rowanj-gitx'
+cask 'vagrant'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959

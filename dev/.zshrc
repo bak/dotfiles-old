@@ -86,10 +86,12 @@ alias hx='fc -l 1'
 
 export HOMEBREW_NO_ANALYTICS=1
 
+export GOPATH="$HOME/Projects/go"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 export PATH="./bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
+export PATH="$PATH:/usr/local/opt/go/libexec/bin"
