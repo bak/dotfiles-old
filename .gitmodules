@@ -46,3 +46,6 @@
 [submodule "dev/.config/nvim/bundle/tslime.vim"]
 	path = dev/.config/nvim/bundle/tslime.vim
 	url = https://github.com/jgdavey/tslime.vim.git
+[submodule "dev/.config/nvim/bundle/vim-tmux-runner"]
+	path = dev/.config/nvim/bundle/vim-tmux-runner
+	url = https://github.com/christoomey/vim-tmux-runner.git

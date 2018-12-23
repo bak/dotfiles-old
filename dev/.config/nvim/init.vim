@@ -29,7 +29,16 @@ set nofixeol
 set clipboard=unnamed
 
 " configure vim-test
-let test#strategy = "tslime"
+let test#strategy = "vtr"
+nmap <silent> t<C-n> :TestNearest<CR>
+nmap <silent> t<C-f> :TestFile<CR>
+nmap <silent> t<C-s> :TestSuite<CR>
+nmap <silent> t<C-l> :TestLast<CR>
+nmap <silent> t<C-g> :TestVisit<CR>
+
+" configure tslime
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
 
 " Configure ack.vim to use ag
 let g:ackprg = 'ag --vimgrep --smart-case'
