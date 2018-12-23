@@ -14,12 +14,13 @@ brew "neovim"
 brew "node"
 brew "pandoc"
 brew "qt"
-brew "ruby"
+brew "rbenv"
 brew "stow"
 brew "the_silver_searcher"
 brew "tig"
 brew "tmux"
 brew "tree"
+brew "yarn"
 brew "zsh"
 cask "atom"
 cask "dash"
@@ -33,7 +34,7 @@ cask "omnipresence"
 cask "rowanj-gitx"
 cask "vagrant"
 cask "virtualbox"
+cask "visual-studio-code"
 mas "1Password", id: 443987910
 mas "Quiver", id: 866773894
 mas "Slack", id: 803453959
-mas "Mindnode", id: 1289197285

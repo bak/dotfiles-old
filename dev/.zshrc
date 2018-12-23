@@ -61,21 +61,14 @@ chpwd_functions+='chpwd_update_git_vars'
 
 PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
-# direnv
 eval "$(direnv hook zsh)"
-
-# hub
-# eval "$(hub alias -s)"
+eval "$(rbenv init -)"
 
 export EDITOR="vim"
 
 if [ -f "${HOME}/.gemrc.local" ]; then
   export GEMRC="${HOME}/.gemrc.local"
 fi
-
-#######################
-# Generic shell stuff #
-#######################
 
 export PAGER="less"
 export LESS="-R"
