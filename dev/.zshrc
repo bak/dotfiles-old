@@ -74,8 +74,10 @@ export PAGER="less"
 export LESS="-R"
 
 alias l='ls -1AopG'
-alias ll='ls -1AopG | less'
 alias hx='fc -l 1'
+alias t='tree -L 1'
+alias tt='tree -L 2'
+alias ttt='tree -L 3'
 
 export HOMEBREW_NO_ANALYTICS=1
 

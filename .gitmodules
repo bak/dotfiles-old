@@ -25,9 +25,9 @@
 [submodule "dev/.config/nvim/bundle/vim-markdown"]
 	path = dev/.config/nvim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown
-[submodule "dev/.config/nvim/bundle/ag.vim"]
-	path = dev/.config/nvim/bundle/ag.vim
-	url = https://github.com/rking/ag.vim
+[submodule "dev/.config/nvim/bundle/ack.vim"]
+	path = dev/.config/nvim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "dev/.config/nvim/bundle/tComment"]
 	path = dev/.config/nvim/bundle/tComment
 	url = https://github.com/vim-scripts/tComment

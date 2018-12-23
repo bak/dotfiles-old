@@ -28,8 +28,14 @@ set nofixeol
 " just use the system clipboard
 set clipboard=unnamed
 
+let g:ackprg = 'ag --vimgrep --smart-case'
+cnoreabbrev ag Ack
+cnoreabbrev aG Ack
+cnoreabbrev Ag Ack
+cnoreabbrev AG Ack
+
 " find under word
-noremap <leader>f <Esc>:Ag<CR>
+noremap <leader>f <Esc>:Ack<CR>
 
 " Preserve indentation while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
