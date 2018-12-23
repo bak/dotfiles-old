@@ -28,6 +28,10 @@ set nofixeol
 " just use the system clipboard
 set clipboard=unnamed
 
+" configure vim-test
+let test#strategy = "tslime"
+
+" Configure ack.vim to use ag
 let g:ackprg = 'ag --vimgrep --smart-case'
 cnoreabbrev ag Ack
 cnoreabbrev aG Ack
