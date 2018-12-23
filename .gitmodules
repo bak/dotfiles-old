@@ -40,3 +40,6 @@
 [submodule "dev/.config/nvim/bundle/vim-go"]
 	path = dev/.config/nvim/bundle/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "dev/.config/nvim/bundle/vim-test"]
+	path = dev/.config/nvim/bundle/vim-test
+	url = https://github.com/janko-m/vim-test.git
