@@ -12,15 +12,15 @@ $ ls -al .gitconfig
 .gitconfig -> dotfiles/dev/.gitconfig
 ```
 
-The nvim config uses [pathogen](https://github.com/tpope/vim-pathogen). To
-install more plugins, submodule them into `dev/.config/nvim/bundle/`, configure
-each with a local excludesfile, and commit the subproject and the changes to
-`.gitmodules`:
+Neovim uses the XDG base directory standard. To install more plugins,
+submodule them into `dev/.local/share/nvim/site/pack/git-plugins/start/`,
+configure each with a local excludesfile, and commit the subproject and
+the changes to `.gitmodules`:
 
 ```
-$ git submodule add git@github.com:tpope/vim-vinegar.git dev/.config/nvim/bundle/vim-vinegar
+$ git submodule add https://github.com/tpope/vim-vinegar.git dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar
 $ git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
-$ git add .gitmodules dev/.config/nvim/bundle/vim-vinegar
+$ git add .gitmodules dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar
 $ git commit -m "Installs vim-vinegar"
 ```
 
