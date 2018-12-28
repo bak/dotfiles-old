@@ -22,9 +22,6 @@ command Wq wq
 command W w
 command Q q
 
-" don't add missing newlines
-set nofixeol
-
 " just use the system clipboard
 set clipboard=unnamed
 
@@ -46,6 +43,18 @@ cnoreabbrev ag Ack
 cnoreabbrev aG Ack
 cnoreabbrev Ag Ack
 cnoreabbrev AG Ack
+
+" Configure ALE
+let g:ale_linters = {
+      \ '*': ['remove_trailing_lines', 'trim_whitespace'],
+      \ 'javascript': ['standard'],
+      \ 'ruby': ['standardrb'],
+      \ }
+let g:ale_fixers  = {
+      \ '*': ['remove_trailing_lines', 'trim_whitespace'],
+      \ 'javascript': ['standard'],
+      \ 'ruby': ['standardrb'],
+      \ }
 
 " find under word
 noremap <leader>f <Esc>:Ack<CR>
@@ -124,9 +133,3 @@ noremap <Leader>/ :TComment<CR>
 imap <Tab> <C-P>
 set complete=.,b,u,]
 set wildmode=longest,list:longest
-
-" load local config
-let my_home = expand("$HOME/")
-if filereadable(my_home . '.vimrc.local')
-  source ~/.vimrc.local
-endif
