@@ -1,55 +1,55 @@
-[submodule "dev/.config/nvim/bundle/vim-vinegar"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
-[submodule "dev/.config/nvim/bundle/vim-repeat"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-repeat"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
-[submodule "dev/.config/nvim/bundle/vim-surround"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-surround"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "dev/.config/nvim/bundle/vim-rails"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-rails"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-rails
 	url = https://github.com/tpope/vim-rails
-[submodule "dev/.config/nvim/bundle/vim-dispatch"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-dispatch"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
-[submodule "dev/.config/nvim/bundle/vim-ruby"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-ruby"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby
-[submodule "dev/.config/nvim/bundle/vim-fugitive"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-fugitive"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "dev/.config/nvim/bundle/ctrlp.vim"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/ctrlp.vim"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "dev/.config/nvim/bundle/vim-markdown"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-markdown"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown
-[submodule "dev/.config/nvim/bundle/ack.vim"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/ack.vim"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "dev/.config/nvim/bundle/tComment"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/tComment"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/tComment
 	url = https://github.com/vim-scripts/tComment
-[submodule "dev/.config/nvim/bundle/vim-textobj-rubyblock"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-textobj-rubyblock"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-textobj-rubyblock
 	url = https://github.com/nelstrom/vim-textobj-rubyblock
-[submodule "dev/.config/nvim/bundle/vim-textobj-user"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-textobj-user"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
-[submodule "dev/.config/nvim/bundle/vim-go"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-go"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-go
 	url = https://github.com/fatih/vim-go
-[submodule "dev/.config/nvim/bundle/vim-test"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-test"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-test
 	url = https://github.com/janko-m/vim-test.git
-[submodule "dev/.config/nvim/bundle/tslime.vim"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/tslime.vim"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/tslime.vim
 	url = https://github.com/jgdavey/tslime.vim.git
-[submodule "dev/.config/nvim/bundle/vim-tmux-runner"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-tmux-runner"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-tmux-runner
 	url = https://github.com/christoomey/vim-tmux-runner.git
-[submodule "dev/.config/nvim/bundle/ale"]
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/ale"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/ale
 	url = https://github.com/w0rp/ale.git
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/happy_hacking.vim"]
