@@ -37,6 +37,8 @@
 	rebase = true
 [credential]
 	helper = osxkeychain
+[branch]
+  sort = -creatordate
 [rerere]
 	enabled = true
 [diff]
