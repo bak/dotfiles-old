@@ -80,6 +80,7 @@ alias tt='tree -L 2'
 alias ttt='tree -L 3'
 
 export HOMEBREW_NO_ANALYTICS=1
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 export GOPATH="$HOME/Projects/go"
 export PATH="/usr/local/bin:$PATH"
