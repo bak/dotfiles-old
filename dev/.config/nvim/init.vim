@@ -59,7 +59,6 @@ let g:ale_fixers  = {
 let g:ale_set_highlights = 0
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
-let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 
 " find under word
 noremap <leader>f <Esc>:Ack<CR>
