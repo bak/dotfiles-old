@@ -14,7 +14,6 @@
 	current = "rev-parse --abbrev-ref HEAD"
 	updatesubmodules = "submodule foreach git pull origin master"
 	c = "commit -m ."
-	topic = !sh -c 'git push origin origin/master:refs/heads/$0 && git checkout $0'
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less -F -X
@@ -30,9 +29,6 @@
 	template = ~/.default_commit_message
 	gpgsign = true
   verbose = true
-[code-review]
-	command = tig
-	branch = origin master
 [pull]
 	rebase = true
 [credential]
