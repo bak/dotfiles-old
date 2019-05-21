@@ -64,6 +64,3 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-jsx"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-coffee-script"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
