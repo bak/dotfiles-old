@@ -70,3 +70,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim
 	url = https://github.com/gcmt/wildfire.vim.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-ledger"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-ledger
+	url = https://github.com/ledger/vim-ledger.git
