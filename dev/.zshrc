@@ -82,7 +82,7 @@ alias ttt='tree -L 3'
 export HOMEBREW_NO_ANALYTICS=1
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-export GOPATH="$HOME/Projects/go"
+export GOPATH="$HOME/work/go"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
