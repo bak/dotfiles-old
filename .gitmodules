@@ -67,3 +67,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-rhubarb"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim
+	url = https://github.com/gcmt/wildfire.vim.git
