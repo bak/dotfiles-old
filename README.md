@@ -12,16 +12,10 @@ $ ls -al .gitconfig
 .gitconfig -> dotfiles/dev/.gitconfig
 ```
 
-Neovim uses the XDG base directory standard. To install more plugins,
-submodule them into `dev/.local/share/nvim/site/pack/git-plugins/start/`,
-configure each with a local excludesfile, and commit the subproject and
-the changes to `.gitmodules`:
+Neovim uses the XDG base directory standard. To install more plugins, use the provided script:
 
 ```
-$ git submodule add https://github.com/tpope/vim-vinegar.git dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar
-$ git submodule foreach git config --local core.excludesfile "../.gitignore_submodules"
-$ git add .gitmodules dev/.local/share/nvim/site/pack/git-plugins/start/vim-vinegar
-$ git commit -m "Installs vim-vinegar"
+$ ./install-vim-plugin.sh https://github.com/tpope/vim-vinegar.git
 ```
 
 To configure the machine and install packages, first install the `Command
