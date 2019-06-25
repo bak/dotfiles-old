@@ -60,6 +60,11 @@ let g:ale_set_highlights = 0
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
 
+" configure ledger
+let g:ledger_fillstring = '    -'
+let g:ledger_detailed_first = 1
+let g:ledger_fold_blanks = 0
+
 " find under word
 noremap <leader>f <Esc>:Ack<CR>
 
