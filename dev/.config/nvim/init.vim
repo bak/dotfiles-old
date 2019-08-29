@@ -7,7 +7,8 @@ set nocompatible
 set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
 
-set colorcolumn=72
+" set colorcolumn=80
+" set textwidth=79
 
 let mapleader = ","
 
