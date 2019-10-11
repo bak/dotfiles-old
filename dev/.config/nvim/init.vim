@@ -7,7 +7,7 @@ set nocompatible
 set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
 
-" set colorcolumn=80
+set colorcolumn=80
 " set textwidth=79
 
 let mapleader = ","
@@ -59,7 +59,7 @@ let g:ale_fixers  = {
       \ 'ruby': ['standardrb'],
       \ }
 
-let g:ale_set_highlights = 0
+let g:ale_set_highlights = 1
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
 
@@ -91,8 +91,8 @@ set listchars=tab:▸\ ,eol:¬
 nnoremap <leader>l :set list!<CR>
 
 " Set Statusline
-set statusline=%t\ %{fugitive#statusline()}
-set ruler          " show the cursor position all the time
+set statusline=%f\ \|\ col\:\ %c\ %{fugitive#statusline()}
+set ruler
 
 " Set Linenumbering
 set nu
