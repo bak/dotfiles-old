@@ -10,6 +10,7 @@
 	l  = "log --graph --color --decorate --all --branches --pretty=format:\"%C(yellow)%h%Cgreen%d %Cblue%an:%Creset %s\""
 	lg = "log --all --branches --color --graph --date=default --pretty=format:\"%C(yellow)%H%Cgreen%d%Creset%n%an, %ad (%ar, committed %cr)%nparents: %p%n%n%w(76,2,2)%B\""
 	lw = "log --word-diff -p"
+	lb = !git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 10 | awk -F' ~ HEAD@{' '{printf(\"  \\033[33m%s: \\033[37m %s\\033[0m\\n\", substr($2, 1, length($2)-1), $1)}'
 	dw = "diff --word-diff"
 	current = "rev-parse --abbrev-ref HEAD"
 	updatesubmodules = "submodule foreach git pull origin master"
@@ -52,3 +53,5 @@
   commit-order = topo
   blame-options = -C -C -C    # Blame lines from other files
   line-graphics = utf-8
+[url "git@github.com:"]
+	insteadOf = https://github.com/

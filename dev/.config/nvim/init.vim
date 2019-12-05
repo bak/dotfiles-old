@@ -2,22 +2,19 @@ syntax enable
 set background=dark
 colorscheme solarized
 filetype plugin indent on
+autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 
 set nocompatible
 set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
 
 set colorcolumn=80
-" set textwidth=79
 
 let mapleader = ","
 
-" ctrlp mapped to ctrl-l
-let g:ctrlp_map = '<c-l>'
-let g:ctrlp_cmd = 'CtrlPMixed'
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-let g:ctrlp_use_caching = 0
+" FZF
+set rtp+=/usr/local/opt/fzf
+nmap <C-l> :Files<CR>
 
 " bad typist
 command WQ wq
@@ -29,16 +26,12 @@ command Q q
 set clipboard=unnamed
 
 " configure vim-test
-let test#strategy = "vtr"
+let test#strategy = "dispatch"
 nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
-
-" configure tslime
-let g:tslime_always_current_session = 1
-let g:tslime_always_current_window = 1
 
 " Configure ack.vim to use ag
 let g:ackprg = 'ag --vimgrep --smart-case'
@@ -62,11 +55,7 @@ let g:ale_fixers  = {
 let g:ale_set_highlights = 1
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
-
-" configure ledger
-let g:ledger_fillstring = '    -'
-let g:ledger_detailed_first = 1
-let g:ledger_fold_blanks = 0
+nmap <leader> l<Esc>:ALEFix<CR>
 
 " find under word
 noremap <leader>f <Esc>:Ack<CR>
@@ -77,8 +66,6 @@ noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 " sign column match colors
 highlight SignColumn ctermbg=black
 
-autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
-
 " line break without breaking words
 set wrap
 set linebreak
@@ -86,9 +73,6 @@ set nolist  " list disables linebreak
 
 " Use symbols for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
-
-" toggle hidden chars
-nnoremap <leader>l :set list!<CR>
 
 " Set Statusline
 set statusline=%f\ \|\ col\:\ %c\ %{fugitive#statusline()}
@@ -133,10 +117,6 @@ vnoremap > >gv
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-" Press Shift+P while in visual mode to replace the selection without
-" overwriting the default register
-vnoremap P p :call setreg('"', getreg('0')) <CR>
 
 " Commenting
 noremap <Leader>/ :TComment<CR>

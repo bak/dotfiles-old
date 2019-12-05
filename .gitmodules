@@ -19,9 +19,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-fugitive"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/ctrlp.vim"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-markdown"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown
@@ -43,12 +40,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-test"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-test
 	url = https://github.com/janko-m/vim-test.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/tslime.vim"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/tslime.vim
-	url = https://github.com/jgdavey/tslime.vim.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-tmux-runner"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-tmux-runner
-	url = https://github.com/christoomey/vim-tmux-runner.git
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/ale"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/ale
 	url = https://github.com/w0rp/ale.git
@@ -67,9 +58,21 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-rhubarb"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim
-	url = https://github.com/gcmt/wildfire.vim.git
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-ledger"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-ledger
 	url = https://github.com/ledger/vim-ledger.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/gv.vim"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/gv.vim
+	url = https://github.com/junegunn/gv.vim.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/nerdtree"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/auto-pairs"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-endwise"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/fzf.vim"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
