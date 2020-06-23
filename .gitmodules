@@ -64,9 +64,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/gv.vim"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/gv.vim
 	url = https://github.com/junegunn/gv.vim.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/nerdtree"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/nerdtree
-	url = https://github.com/preservim/nerdtree.git
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/auto-pairs"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
