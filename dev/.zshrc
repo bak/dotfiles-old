@@ -64,6 +64,7 @@ PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 eval "$(direnv hook zsh)"
 
 export EDITOR="vim"
+alias vimz="vim \$(fzf)"
 
 if [ -f "${HOME}/.gemrc.local" ]; then
   export GEMRC="${HOME}/.gemrc.local"

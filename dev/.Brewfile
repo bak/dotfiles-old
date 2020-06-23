@@ -5,6 +5,7 @@ brew "chruby"
 brew "ctags"
 brew "fzf"
 brew "git"
+brew "gmp" # dependecy of ruby
 brew "go"
 brew "go-jira"
 brew "jq"
