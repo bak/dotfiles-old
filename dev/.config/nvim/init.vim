@@ -1,15 +1,17 @@
 syntax enable
-set background=dark
-colorscheme solarized
 filetype plugin indent on
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
-
 set nocompatible
 set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
 
 set colorcolumn=80
 let mapleader = ","
+
+" truecolor support for vim running in tmux
+" I have no idea what this does
+set t_8b=^[[48;2;%lu;%lu;%lum
+set t_8f=^[[38;2;%lu;%lu;%lum
 
 " FZF, C-l to fuzzyfind files
 set rtp+=/usr/local/opt/fzf
