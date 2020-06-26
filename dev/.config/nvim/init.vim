@@ -9,12 +9,12 @@ set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
 
 set colorcolumn=80
-
 let mapleader = ","
 
-" FZF
+" FZF, C-l to fuzzyfind files
 set rtp+=/usr/local/opt/fzf
 nmap <C-l> :Files<CR>
+let g:fzf_preview_window = 'right:20%'
 
 " bad typist
 command WQ wq
@@ -55,7 +55,6 @@ let g:ale_fixers  = {
 let g:ale_set_highlights = 1
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
-nmap <leader> l<Esc>:ALEFix<CR>
 
 " find under word
 noremap <leader>f <Esc>:Ack<CR>
