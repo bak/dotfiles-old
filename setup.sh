@@ -36,9 +36,6 @@ brew bundle --global
 echo "Setting Homebrew's zsh"
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
-echo "Opening iTerm2 theme directory so you can install them"
-open shared/iterm2-themes/
-
 echo "Symlinking vim to nvim"
 ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
