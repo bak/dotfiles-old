@@ -1,6 +1,11 @@
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+
 syntax enable
-colorscheme one
-set background=dark
+colorscheme onehalfdark
 filetype plugin indent on
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 set nocompatible

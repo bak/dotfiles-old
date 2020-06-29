@@ -73,3 +73,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-one"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "shared/onehalf"]
+	path = shared/onehalf
+	url = https://github.com/sonph/onehalf.git
