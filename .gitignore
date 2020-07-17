@@ -4,3 +4,6 @@ dev/.config/direnv/*
 dev/.config/configstore/*
 dev/.config/hub
 dev/.config/heroku/config.json
+dev/.local/share/nvim/shada
+dev/.local/share/direnv
+

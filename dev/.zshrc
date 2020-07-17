@@ -63,6 +63,8 @@ PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
 eval "$(direnv hook zsh)"
 
+eval "$(hub alias -s)"
+
 export EDITOR="vim"
 alias vimz="vim \$(fzf)"
 
