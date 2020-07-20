@@ -49,6 +49,12 @@ cnoreabbrev aG Ack
 cnoreabbrev Ag Ack
 cnoreabbrev AG Ack
 
+" Configure wildfire.vim
+" This selects the next closest text object.
+map <SPACE> <Plug>(wildfire-fuel)
+" This selects the previous closest text object.
+vmap <C-SPACE> <Plug>(wildfire-water)
+
 " Configure ALE
 let g:ale_linters = {
       \ '*': ['remove_trailing_lines', 'trim_whitespace'],
