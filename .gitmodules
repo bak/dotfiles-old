@@ -76,3 +76,6 @@
 [submodule "shared/onehalf"]
 	path = shared/onehalf
 	url = https://github.com/sonph/onehalf.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/wildfire.vim
+	url = https://github.com/gcmt/wildfire.vim.git
