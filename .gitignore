@@ -6,4 +6,5 @@ dev/.config/hub
 dev/.config/heroku/config.json
 dev/.local/share/nvim/shada
 dev/.local/share/direnv
-
+dev/.local/share/pry
+dev/.local/share/httptoolkit-server
