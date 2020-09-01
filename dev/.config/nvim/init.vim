@@ -23,6 +23,7 @@ set t_8f=^[[38;2;%lu;%lu;%lum
 " FZF, C-l to fuzzyfind files
 set rtp+=/usr/local/opt/fzf
 nmap <C-l> :Files<CR>
+nmap <C-l><C-b> :Buffers<CR>
 let g:fzf_preview_window = 'right:20%'
 
 " bad typist
