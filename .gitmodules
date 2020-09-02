@@ -76,6 +76,3 @@
 [submodule "shared/onehalf"]
 	path = shared/onehalf
 	url = https://github.com/sonph/onehalf.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/elm-vim"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/elm-vim
-	url = https://github.com/ElmCast/elm-vim.git
