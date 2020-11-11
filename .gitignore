@@ -1,3 +1,4 @@
+.DS_Store
 dev/.config/nvim/.netrwhist
 dev/.config/nvim/tmp/*
 dev/.config/direnv/*

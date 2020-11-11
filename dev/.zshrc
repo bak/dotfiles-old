@@ -63,8 +63,6 @@ PROMPT=$'%D{%T} %{${fg[yellow]}%}%~/$(prompt_git_info)%{${fg[default]}%} %# '
 
 eval "$(direnv hook zsh)"
 
-eval "$(hub alias -s)"
-
 export EDITOR="vim"
 alias vimz="vim \$(fzf)"
 
@@ -95,6 +93,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 export NODE_VERSIONS=$NVM_DIR/versions/node
@@ -103,4 +102,4 @@ export NODE_VERSION_PREFIX=v
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
-chruby 2.7.1
+chruby 2.7.2

@@ -17,9 +17,10 @@
 	c = "commit -m ."
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = less -F -X
+  pager = delta
 	trustctime = false
 	autocrlf = input
+	attributesfile = /Users/bencullen-kerney/.gitattributes
 [help]
 	browser = gitscm
 [push]
@@ -40,6 +41,11 @@
 	enabled = true
 [diff]
 	compactionHeuristic = true
+[delta]
+  line-numbers = true
+  side-by-side = true
+[interactive]
+  diffFilter = delta --color-only
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
