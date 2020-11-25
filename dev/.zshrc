@@ -99,6 +99,8 @@ export NVM_DIR="$HOME/.nvm"
 export NODE_VERSIONS=$NVM_DIR/versions/node
 export NODE_VERSION_PREFIX=v
 
+export FZF_DEFAULT_COMMAND='rg --files --hidden'
+
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
