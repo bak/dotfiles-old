@@ -56,3 +56,5 @@
   line-graphics = utf-8
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
