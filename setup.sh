@@ -36,6 +36,9 @@ brew bundle --global
 echo "Setting Homebrew's zsh"
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
+echo "Installing FZF auto-completion and key bindings"
+$(brew --prefix)/opt/fzf/install
+
 echo "Symlinking vim to nvim"
 ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
