@@ -5,6 +5,7 @@
 	user = bak
 [alias]
 	co = checkout
+	com = !git remote set-head origin -a && git checkout `git symbolic-ref refs/remotes/origin/HEAD | sed 's+refs/remotes/origin/++'`
 	st = "status -s"
 	b  = "branch -v"
 	l  = "log --graph --color --decorate --all --branches --pretty=format:\"%C(yellow)%h%Cgreen%d %Cblue%an:%Creset %s\""
