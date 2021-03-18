@@ -7,6 +7,7 @@ dev/.config/gtk-2.0/*
 dev/.config/hub
 dev/.config/iterm2/*
 dev/.config/heroku/config.json
+dev/.config/iterm2/*
 dev/.local/share/nvim/shada
 dev/.local/share/direnv
 dev/.local/share/pry

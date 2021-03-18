@@ -98,6 +98,8 @@ export PATH="$HOME/.emacs.d/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 export NODE_VERSIONS=$NVM_DIR/versions/node
 export NODE_VERSION_PREFIX=v
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 
@@ -107,3 +109,4 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 chruby 3.0.0
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/node@14/bin:$PATH"
