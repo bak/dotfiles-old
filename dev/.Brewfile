@@ -8,6 +8,7 @@ brew "gmp" # dependecy of ruby
 brew "go"
 brew "graphviz"
 brew "jq"
+brew "mailtrackerblocker"
 brew "neovim"
 brew "qt"
 brew "ripgrep"
