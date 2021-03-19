@@ -104,6 +104,6 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden'
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
-chruby 2.7.2
+chruby 3.0.0
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
