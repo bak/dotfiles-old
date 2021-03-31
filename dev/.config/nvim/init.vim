@@ -8,6 +8,7 @@ syntax enable
 colorscheme onehalfdark
 filetype plugin indent on
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 set nocompatible
 set encoding=utf-8
 set modelines=0 " Don't allow files to change settings
