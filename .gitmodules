@@ -85,3 +85,6 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-jsx-pretty"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
+[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-graphql"]
+	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-graphql
+	url = https://github.com/jparise/vim-graphql.git
