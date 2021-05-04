@@ -43,6 +43,12 @@ nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
+" config tagbar
+let g:tagbar_position = 'topleft vertical'
+let g:tagbar_show_tag_linenumbers = 2
+let g:tagbar_sort = 0
+noremap <Leader>t :TagbarToggle<CR>
+
 " Configure ack.vim to use ag
 let g:ackprg = 'ag --vimgrep --smart-case'
 cnoreabbrev ag Ack
