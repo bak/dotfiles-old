@@ -106,7 +106,6 @@ export FZF_DEFAULT_COMMAND="rg --files --hidden -g '!.git' "
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
-chruby 3.0.0
+chruby 3.0.1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export PATH="/usr/local/opt/node@14/bin:$PATH"
