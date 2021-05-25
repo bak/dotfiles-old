@@ -25,8 +25,8 @@ set t_8f=^[[38;2;%lu;%lu;%lum
 
 " FZF, C-l to fuzzyfind files
 set rtp+=/usr/local/opt/fzf
-nmap <C-l> :Files<CR>
-nmap <C-l><C-b> :Buffers<CR>
+nnoremap <C-l> :Files<CR>
+nnoremap <C-l><C-b> :Buffers<CR>
 let g:fzf_preview_window = 'right:20%'
 
 " bad typist
@@ -40,11 +40,11 @@ set clipboard=unnamed
 
 " configure vim-test
 let test#strategy = "dispatch"
-nmap <silent> t<C-n> :TestNearest<CR>
-nmap <silent> t<C-f> :TestFile<CR>
-nmap <silent> t<C-s> :TestSuite<CR>
-nmap <silent> t<C-l> :TestLast<CR>
-nmap <silent> t<C-g> :TestVisit<CR>
+nnoremap <silent> t<C-n> :TestNearest<CR>
+nnoremap <silent> t<C-f> :TestFile<CR>
+nnoremap <silent> t<C-s> :TestSuite<CR>
+nnoremap <silent> t<C-l> :TestLast<CR>
+nnoremap <silent> t<C-g> :TestVisit<CR>
 
 " config tagbar
 let g:tagbar_position = 'topleft vertical'
@@ -144,6 +144,6 @@ vnoremap <F1> <ESC>
 noremap <Leader>/ :TComment<CR>
 
 " Tab completion options
-imap <Tab> <C-P>
+inoremap <Tab> <C-P>
 set complete=.,b,u,]
 set wildmode=longest,list:longest
