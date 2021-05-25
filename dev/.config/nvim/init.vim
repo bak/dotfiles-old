@@ -15,6 +15,9 @@ set modelines=0 " Don't allow files to change settings
 set colorcolumn=80
 let mapleader = ","
 
+" stop accidentally entering Ex mode
+noremap Q <Nop>
+
 " truecolor support for vim running in tmux
 " I have no idea what this does
 set t_8b=^[[48;2;%lu;%lu;%lum
@@ -48,6 +51,10 @@ let g:tagbar_position = 'topleft vertical'
 let g:tagbar_show_tag_linenumbers = 2
 let g:tagbar_sort = 0
 noremap <Leader>t :TagbarToggle<CR>
+
+" set colors
+noremap <Leader>l :colorscheme onehalflight<CR>
+noremap <Leader>d :colorscheme onehalfdark<CR>
 
 " Configure ack.vim to use ag
 let g:ackprg = 'ag --vimgrep --smart-case'
