@@ -6,7 +6,6 @@ brew "fzf"
 brew "git"
 brew "gh"
 brew "gmp" # dependecy of ruby
-brew "go"
 brew "graphviz"
 brew "jq"
 brew "neovim"
