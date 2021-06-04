@@ -91,6 +91,3 @@
 [submodule "dev/.local/share/nvim/site/pack/git-plugins/start/vim-gutentags"]
 	path = dev/.local/share/nvim/site/pack/git-plugins/start/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags.git
-[submodule "dev/.local/share/nvim/site/pack/git-plugins/start/tagbar"]
-	path = dev/.local/share/nvim/site/pack/git-plugins/start/tagbar
-	url = https://github.com/preservim/tagbar.git
