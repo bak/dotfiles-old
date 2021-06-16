@@ -13,3 +13,4 @@ dev/.local/share/direnv
 dev/.local/share/pry
 dev/.local/share/httptoolkit-server
 dev/.config/karabiner/automatic_backups/*
+dev/.local/share/karabiner/*
